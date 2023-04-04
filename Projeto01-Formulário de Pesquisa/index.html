@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Pesquisa</title>
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+  <h1 id="title">Formulário de Pesquisa FreeCodeCamp</h1>
+  <p id="description">Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</p>
+  <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+    <fieldset>
+      <label for="Nome" id="name-label">Nome<input id="name" name="first-name" type="text" required
+          placeholder="Digite o seu nome" /></label>
+      <label for="Idade" id="number-label">Idade (opcional)<input id="number" name="last-name" type="number" min="13"
+          max="120" placeholder="Digite a sua idade" /></label>
+      <label for="email" id="email-label">Email<input id="email" name="email" type="email" required
+          placeholder="Digite o seu e-mail" /></label>
+
+      <p>Qual opção melhor descreve sua função atual?</p>
+      <select id="dropdown" name="referrer">
+        <option value="">(Selecione a função atual)</option>
+        <option value="1">Estudante</option>
+        <option value="2">Trabalho em Tempo Integral</option>
+        <option value="3">Aprendiz em Tempo Integral</option>
+        <option value="4">Prefiro não dizer</option>
+        <option value="5">Outro</option>
+      </select>
+      <p>Você recomendaria o FreeCodeCamp a um amigo?</p>
+      <label for="option1" id="option-label"><input id="option" name="option" type="radio" value="option" />
+        Definitivamente<br></label>
+      <label for="option1" id="option-label"><input id="option" name="option" type="radio" value="option" />
+        Talvez<br></label>
+      <label for="option1" id="option-label"><input id="option" name="option" type="radio" value="option" /> Não tenho
+        certeza<br></label>
+      <p>O que você gostaria de ver melhorado? (Marque todos os que se aplicam)</p>
+      <label><input id="optionCheckbox" name="option" type="checkbox" value="option" /> Projetos front-end<br></label>
+      <label><input id="optionCheckbox" name="option" type="checkbox" value="option" /> Projetos de back-end<br></label>
+      <label><input id="optionCheckbox" name="option" type="checkbox" value="option" /> Visualização de
+        dados<br></label>
+      <label><input id="optionCheckbox" name="option" type="checkbox" value="option" /> Desafios<br></label>
+      <label><input id="optionCheckbox" name="option" type="checkbox" value="option" /> Comunidade de código
+        aberto<br></label>
+      <label><input id="optionCheckbox" name="option" type="checkbox" value="option" /> Salas de ajuda do
+        Gitter<br></label>
+      <label><input id="optionCheckbox" name="option" type="checkbox" value="option" /> Vídeos<br></label>
+      <label><input id="optionCheckbox" name="option" type="checkbox" value="option" /> Encontros da cidade<br></label>
+      <label><input id="optionCheckbox" name="option" type="checkbox" value="option" /> Wiki<br></label>
+      <label><input id="optionCheckbox" name="option" type="checkbox" value="option" /> Fórum<br></label>
+      <label><input id="optionCheckbox" name="option" type="checkbox" value="option" /> Cursos
+        adicionais<br><br></label>
+
+      <label for="Coment">Algum comentário ou sugestão?
+        <textarea id="Coment" name="Coment" rows="3" cols="30" placeholder="Digite seu comentário aqui..."></textarea>
+      </label>
+      <input id="submit" type="submit" value="Enviar" />
+    </fieldset>
+
+</body>
+
+</html>
