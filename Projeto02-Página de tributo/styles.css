@@ -1,0 +1,32 @@
+#image{
+    max-width:100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    margin: auto;
+  }
+  
+  
+  #img-div{
+    align-items: center;
+  }
+  
+  main{
+     background: #eee;   align-items: center;
+     margin: none;
+     padding: none;
+     text-align: center; 
+  }
+  body{
+       text-align: center; 
+       font-family: "Times New Roman";
+        line-height: 1.5;
+  }
+  
+  #tribute-info{
+    text-align: Justify;
+  }
+
+  p{
+    text-indent: 10px;
+  }
